@@ -1,0 +1,116 @@
+/* CSS for Resume Assignment*/
+
+
+body {
+	margin: 25px 25px 50px 25px;
+}
+
+h1,h2 {
+	font-family: 'Bubblegum Sans', serif;
+	font-family: 'Gentium Book Plus', serif; 
+}
+
+h1 {
+	color:#21067f;
+	text-decoration: underline;
+}
+
+header {
+	padding: 5px;
+	text-align: center;
+	text-decoration: underline;
+	font-size: large;
+	background-color: #21067f;
+}
+
+.bigheader {
+	color:white;
+}
+
+
+h2{
+	color:#ed6c29;
+}
+
+#contact {
+	padding:0px 0px 0px 0px;
+	margin-top: 0px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url('buttercopy.png');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+
+#experience, #specialties, #education {
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+#summary {
+	text-align: center;
+	padding-left: 16.65%;
+	padding-right: 16.65%;
+	text-indent: 50px;
+}
+
+#summary p::first-letter {
+	color:#ed6c29;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#summary p::first-line{
+	color:#ed6c29;
+	font-variant: small-caps;
+}
+
+
+#summary p{ 
+	text-indent: 50px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+#education {
+	background-color:#f6b594;
+}
+
+
+ul {
+  list-style-image:url('butterfly.png');
+  list-style-position: inside;
+}
+
+a:link {
+	color:#ed6c29;
+}
+
+a:visited {
+	color:#702c09;
+}
+
+a:focus{
+	color:#d76c04;
+}
+
+a:hover {
+	color:#21067f;
+	text-decoration: underline;
+}
+
+a:active {
+	color:#1b74cb;
+}
+
+
+
+
+
+
